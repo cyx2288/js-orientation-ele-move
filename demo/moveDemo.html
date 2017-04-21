@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--通用媒体查询-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta content="webkit" name="renderer">
+    <title>摇晃移动元素</title>
+    <style>
+
+        div{
+
+            margin: 20px auto;
+            background: #ff1616;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+
+        }
+
+    </style>
+</head>
+<style>
+
+
+</style>
+<body>
+
+<div class="ori_move" data-ori="1.5"></div>
+<div class="ori_move"></div>
+<div class="ori_move" data-ori="2.8"></div>
+<div class="ori_move" data-ori="0.95"></div>
+<div class="ori_move" data-ori="0.2"></div>
+<div class="ori_move" data-ori="0.85"></div>
+
+
+</body>
+<script type="text/javascript" src="../script/ori-move.min.js"></script>
+<script>
+
+
+    //摇晃事件初始化
+    orientationElMove.init();
+
+
+</script>
+</html>
