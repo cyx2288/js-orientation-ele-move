@@ -7,5 +7,5 @@ ori-move.min.js 是压缩版本<br/>
 插件初始化 orientationElMove.init()<br/>
 
 #### v1.0.0
-1、解决ios端，跳转后返回该页面后，元素会一直飘走
-2、解决Android端，移动元素有卡顿问题
+1、解决ios端，跳转后返回该页面后，元素会一直飘走<br/>
+2、解决Android端，移动元素有卡顿问题<br/>
